@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    
+}
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+h2 {
+    font-family: "Work Sans";
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Medidadas absolutas
+ cm, mm, in, , pt, px, pc.
+    
+Mediadas Relativas
+em, ex, rem, vw, vh, %
+usar o em ou px
+
+font-weight(peso) - lighter, normal, bold, bolder
+font-style - para pôr em itálico
+*/
+/* font family
+font weight
+font size
+font style
+
+podem ser simplificadas por shorthand font*/

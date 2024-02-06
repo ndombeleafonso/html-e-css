@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover {
+            color: red;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>passe o mouse sobre o texto a baixo</p>
+    <div>
+        passe o mouse aqui
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, eum unde ullam tempora tempore omnis voluptate voluptatem incidunt eos expedita repudiandae rerum ipsum perferendis at consectetur? Distinctio excepturi voluptatum provident.
+        </p>
+    </div>
+    <p>fim do exemplo</p>
+</body>
+</html>
